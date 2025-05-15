@@ -1,0 +1,56 @@
+article p {
+    background:greenyellow ;
+    color:blueviolet;
+    padding: 20px;
+}
+
+
+article > p {
+    background-color: black;
+    padding: 20px;
+}
+
+article + p{
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+article ~ p{
+    background-color: brown;
+    padding: 20px;
+}
+
+h3{
+    color:blue ;
+}
+
+h3:first-of-type{
+    color: black;
+}
+
+h3:in-range{
+    border:3px solid green;
+    
+}
+h3:out-of-range{
+    border:3px solid blue;
+    
+}
+
+input:required{
+    background-color: blueviolet;
+
+}
+input:focus{
+    background-color: gray;
+}
+
+p::first-line{
+   color: aqua;
+
+}
+
+p::first-letter{
+    color: blue;
+    padding: 20px;
+}

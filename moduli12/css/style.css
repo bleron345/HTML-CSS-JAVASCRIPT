@@ -1,6 +1,6 @@
 @barionette-script{
     font-family:"TEST";
-    src:url(../fonts/barionette_script.zip)
+    src:url(barionettescript.zip)
 }
 h1{
     color: rgb(140, 0, 255);
@@ -17,15 +17,30 @@ p{
 }
 h2{
     text-decoration: overline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h3{
     text-decoration: line-through;
     
 
-
 }
 
 h4{
     text-decoration:underline;
+
+}
+
+.test{
+    color:beige;
+    font-size:30px;
+    text-align:center;
+}
+
+
+#test_id{
+    color:brown;
+    font-size: 25px;
+    font-style: italic;
+
 }
