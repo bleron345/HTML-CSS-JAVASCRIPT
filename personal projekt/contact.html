@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mobileri i Jonë - Contact</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">MOBILERI</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-section">
+      <h2>Na Kontaktoni</h2>
+      <form action="https://formspree.io/f/yourformid" method="POST">
+        <label for="name">Emri</label>
+        <input type="text" id="name" name="name" required placeholder="Shkruani emrin tuaj" />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="_replyto" required placeholder="Shkruani email-in tuaj" />
+
+        <label for="message">Mesazhi</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Shkruani mesazhin tuaj"></textarea>
+
+        <button type="submit">Dërgo</button>
+      </form>
+    </section>
+
+    <section class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3110.543540274186!2d19.81814361526464!3d42.65470477917568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135c07a1a29d3f99%3A0x5ca61007e7c9e4c9!2sPrishtina%2C%20Kosovo!5e0!3m2!1sen!2sus!4v1687828238581!5m2!1sen!2sus"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Google Map Location"
+      ></iframe>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Mobileri i Jonë | All rights reserved
+  </footer>
+</body>
+</html>

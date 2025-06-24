@@ -3,48 +3,60 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Mobilieri Stil - Ballina</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <title>Mobileri Jonë - Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-
-  <header class="header">
-    <nav class="navbar container">
-      <a href="index.html" class="logo">Mobilieri Stil</a>
-      <ul class="nav-links">
-        <li><a href="index.html" class="active">Ballina</a></li>
-        <li><a href="galeria.html">Galeria</a></li>
-        <li><a href="kontakt.html">Kontakti</a></li>
+  <header>
+    <nav class="navbar">
+      <div class="logo">MOBILERI</div>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
-      <button class="mobile-menu-toggle" aria-label="Open Menu">
-        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
-      </button>
     </nav>
   </header>
 
-  <main class="container">
+  <main>
     <section class="hero">
-      <h1>Mobilieri Stil - Dizajni dhe Cilësia për Shtëpinë Tuaj</h1>
-      <p>Krijojmë mobilje unike, elegante dhe funksionale që bëjnë shtëpinë tuaj më të bukur.</p>
-      <a href="kontakt.html" class="btn-primary">Na Kontaktoni</a>
+      <video autoplay muted loop>
+        <source src="video/woodwork.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="hero-text">
+        <h1>Mobiliere me Stil dhe Cilësi</h1>
+        <p>Krijuar për t'iu përshtatur çdo ambienti</p>
+      </div>
     </section>
 
-    <section class="features">
-      <article class="feature">
-        <h2>Dizajn Ekskluziv</h2>
-        <p>Mobilje të punuara me kujdes për detajet dhe stil unik.</p>
-      </article>
-      <article class="feature">
-        <h2>Materiale Cilësore</h2>
-        <p>Përdorim drurin dhe materialet më të mira për qëndrueshmëri.</p>
-      </article>
-      <article class="feature">
-        <h2>Shërbim Profesional</h2>
-        <p>Mbështetje e vazhdueshme dhe këshilla për çdo klient.</p>
-      </article>
+    <section class="container">
+      <h2>Produktet më të njohura</h2>
+      <div class="products-grid">
+        <article class="product-card">
+          <img src="images/chair.jpg" alt="Karrige Druri" />
+          <h3>Karrige Druri</h3>
+          <p>Karrige ergonomike dhe e qëndrueshme, ideale për çdo dhomë.</p>
+        </article>
+
+        <article class="product-card">
+          <img src="images/table.jpg" alt="Tryezë Dining" />
+          <h3>Tryezë Dining</h3>
+          <p>Tryezë elegante prej druri të fortë për familje dhe mysafirë.</p>
+        </article>
+
+        <article class="product-card">
+          <img src="images/wardrobe.jpg" alt="Dollap" />
+          <h3>Dollap</h3>
+          <p>Dollap modern me shumë hapësirë dhe dizajn minimalist.</p>
+        </article>
+      </div>
     </section>
   </main>
 
-  <footer class="footer">
-    <p>© 2025 Mobilieri Stil. Të gjitha të drejtat e re
+  <footer>
+    &copy; 2025 Mobileri Jonë | All rights reserved
+  </footer>
+</body>
+</html>
